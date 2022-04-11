@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel$ and Demon$</title>
+    <link rel="stylesheet" href="ad.css">
+</head>
+<body>
+    <div class="background-image">  
+            <br>
+            <div id="tatalom">
+                <div id="szlogen">A hely, ahol megtalálod az igaz szerelmet! Regisztrálj most</div>
+                <div id="nyil"><img src="arrow-gif.gif" alt="Hoppá, valami gebasz van!", width="40px"></div>
+
+                <br>
+        <form>
+                <p>
+                    <label>Felhasználónév:<input type="text" id="txt" maxlength="20" autofocus> </label>
+                    <label>Jelszó: <input type="password" id="password" maxlength="15"> </label>
+                    <label>E-mail: <input type="email" maxlength="50" value="@gmail.com" id="mail"> </label>
+                    <label> Telefonszám: <input type="number" id="tel" value="+36"maxlength="12" ></label>
+                    <label> Bankkártya: <input type="number" id="bk" maxlenght="30"> </label>
+                    <label>
+                        Nemed: <select name="nemek" id="nem">
+                                    <option value="Férfi"> Férfi</option>
+                                    <option value="Nő"> Nő</option>
+
+                                </select>
+                    </label>
+                </p>
+            </div>
+
+            <br>
+            <button type="submit">Regisztrálás</button>
+            <button type="reset">Mégsem</button>
+        </form>
+        <p><span id="ad">Angels & Demons</span></p>
+    
+    </div>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .background-image {
+            background-image: url(demons-angels-darkness.jpg);
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: contain;
+        }
+
+    </style>
+
+</body>
+</html>
